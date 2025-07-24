@@ -19,7 +19,7 @@ public class MaximumSubArrayBruteForce {
                 System.out.println(sumF + "  " + nums[j]);
             }
             System.out.println("sumF --------------------->" + sumF);
-            //sum = nums[i];
+
             for (int k = i - 1; k >= 0; k--) {
                 sumR = sumR + nums[k];
                 if (sumR > maxSum) {
