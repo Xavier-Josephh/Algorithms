@@ -1,0 +1,23 @@
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World in Java"); 
+        int[] arr = {9,599,500,999,10,10,509,1,999};
+        int largest = -1;
+        int secondLargest = -1;
+        int thirdLargest = -1;
+	    for (int i: arr) {
+            if (i > largest) {
+                secondLargest = largest;
+                largest = i;
+            } else if (i > secondLargest && i != largest) {
+                secondLargest = i;
+                thirdLargest = secondLargest;
+            } else if (i > thirdLargest && i != secondLargest && i != largest) {
+                thirdLargest = i;
+            }
+	    }
+        System.out.println(largest);
+        System.out.println(secondLargest);
+        System.out.println(thirdLargest);
+    }
+}
