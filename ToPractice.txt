@@ -1,0 +1,8 @@
+To Practice
+https://www.hackerrank.com/challenges/java-loops-i/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/java-loops/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/java-strings-introduction/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/java-anagrams/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/java-string-reverse/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/java-string-tokens/problem?isFullScreen=true
+https://www.naukri.com/code360/problems/beautiful-string_1115625?interviewProblemRedirection=true&leftPanelTabValue=PROBLEM
