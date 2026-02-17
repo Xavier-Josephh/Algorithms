@@ -1,4 +1,7 @@
 To Practice
+
+===========================================================16/Feb/2026======================================================
+
 https://www.hackerrank.com/challenges/java-loops-i/problem?isFullScreen=true
 https://www.hackerrank.com/challenges/java-loops/problem?isFullScreen=true
 https://www.hackerrank.com/challenges/java-strings-introduction/problem?isFullScreen=true
@@ -6,3 +9,45 @@ https://www.hackerrank.com/challenges/java-anagrams/problem?isFullScreen=true
 https://www.hackerrank.com/challenges/java-string-reverse/problem?isFullScreen=true
 https://www.hackerrank.com/challenges/java-string-tokens/problem?isFullScreen=true
 https://www.naukri.com/code360/problems/beautiful-string_1115625?interviewProblemRedirection=true&leftPanelTabValue=PROBLEM
+
+===========================================================17/Feb/2026========================================================
+
+https://www.geeksforgeeks.org/problems/minimum-indexed-character-1587115620/1
+https://www.naukri.com/code360/problems/check-if-the-string-is-a-palindrome_1062633?leftPanelTabValue=DISCUSS
+https://www.codingninjas.com/studio/problems/check-if-the-string-is-a-palindrome_1062633?leftPanelTabValue=DISCUSS
+https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/1265392853/
+
+class Solution {
+    public int lengthOfLongestSubstring(String str) {
+        if(str.equals("")){
+            return 0;
+        }
+       int max=-1;
+       for(int i=0;i<str.length();i++){
+            for(int j=i+1;j<=str.length();j++){
+                String s=str.substring(i,j);
+                boolean found = checkForDuplicates(s);
+                if(found==true){
+                    if(s.length()>max){
+                        max=s.length();
+                    }
+                }
+            }
+       }
+       return max;
+    }
+    boolean checkForDuplicates(String str){
+           String req="";
+           for(int i=0;i<str.length();i++){
+                
+                if(!req.contains(str.charAt(i)+"")){
+                    req=req+str.charAt(i)+"";
+                }else{
+                    return false;
+                }
+           }
+           return true;
+    }
+   
+   
+}
