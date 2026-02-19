@@ -51,3 +51,45 @@ class Solution {
    
    
 }
+
+==============================================20th Feb 2026==========================================================
+
+https://www.naukri.com/code360/problems/longest-substring-with-at-most-k-distinct-characters_2221410?leftPanelTabValue=PROBLEM
+import java.util.*;
+public class Solution {
+
+	public static int kDistinctChars(int k, String str) {
+		// Write your code here
+		int max=-1;
+		for(int i=0;i<str.length();i++)
+		{
+			for(int j=i+1;j<=str.length();j++){
+				String s = str.substring(i,j);
+				boolean found = kDistinctChars(s,k);
+				if(found==true){
+					if(s.length()>max){
+						max=str.length();
+					}
+				}
+			}
+		}
+		return max;
+	}
+	static boolean kDistinctChars(String str,int k)
+	{
+       HashSet<Character> hs = new HashSet<>();
+	   for(int i=0;i<str.length();i++){
+		   hs.add(str.charAt(i));
+	   }
+	   if(hs.size()==k){
+		   return true;
+	   }else{
+		   return false;
+	   }
+	}
+
+}
+//k=3
+//ab = 2
+//abc - 3
+//aabc- 3
