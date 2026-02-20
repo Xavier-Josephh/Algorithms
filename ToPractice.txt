@@ -93,3 +93,8 @@ public class Solution {
 //ab = 2
 //abc - 3
 //aabc- 3
+=============================================================20 Feb 2026================================================================================
+https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1
+https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1
+https://www.geeksforgeeks.org/problems/find-duplicates-in-an-array/1
+https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1
