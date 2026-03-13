@@ -138,3 +138,8 @@ https://leetcode.com/problems/3sum/description/
 =========================================================10th March 2026===============================================================================
 https://leetcode.com/problems/3sum/description/ 
 Explained here
+=========================================================12th March 2026===============================================================================
+https://www.geeksforgeeks.org/problems/key-pair5616/1
+https://neetcode.io/practice/practice/neetcode250
+https://www.geeksforgeeks.org/problems/non-repeating-element3958/1
+https://www.geeksforgeeks.org/problems/convert-to-roman-no/1
