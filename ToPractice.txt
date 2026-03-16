@@ -147,4 +147,7 @@ https://www.geeksforgeeks.org/problems/convert-to-roman-no/1
 https://www.geeksforgeeks.org/problems/roman-number-to-integer3201/1
 https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
 https://www.naukri.com/code360/problems/first-negative-in-every-window_759333 --> H/W
+========================================================16th Marc 2026==================================================================================
+
+https://www.naukri.com/code360/problems/first-negative-integer-in-every-window_759333 (Sliding window)
 
