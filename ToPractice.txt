@@ -186,5 +186,43 @@ class Solution {
 }
 
 https://github.com/KakitapalliSunilKiran/SlidingWindow_2Pointer_Algos/blob/main/programs
+========================================================22nd March 2026==================================================================================
+NA
+========================================================23rd March 2026==================================================================================
+https://www.naukri.com/code360/problems/distinct-characters_2221410
+https://www.geeksforgeeks.org/problems/count-number-of-substrings4528/1
 
+class Solution {
+    public int countSubstr(String s, int k) {
+        //  code here
+      return atmost(s,k)-atmost(s,k-1);
 
+    }
+    int atmost(String str,int k){
+        
+		int release=0;
+		HashMap<Character,Integer> hm = new HashMap<>();
+		int maxlen=-1;
+		int count=0;
+		for(int i=0;i<str.length();i++)
+		{
+		    hm.put(str.charAt(i),hm.getOrDefault(str.charAt(i),0)+1);
+			while(hm.size()>k)
+			{
+				Character disc=str.charAt(release);
+				int f=hm.get(disc);
+				f--;
+				if(f==0){
+					hm.remove(disc);
+				}
+				else{
+					hm.put(disc,f);
+				}
+				release++;
+			}
+			//maxlen=Math.max(maxlen,i-release+1);
+			count=count+(i-release+1);
+		}
+		return count;
+    }
+}
