@@ -228,3 +228,6 @@ class Solution {
 }
 
 https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/
+========================================================24th March 2026==================================================================================
+https://neetcode.io/problems/contains-duplicate-ii/question
+https://neetcode.io/problems/buy-and-sell-crypto/question
