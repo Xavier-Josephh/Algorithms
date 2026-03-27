@@ -10,9 +10,7 @@ class SlidingWindowMaximumBruteForce {
                 }   
                 result[i] = max;
                 m ++;
-                System.out.print(nums[j]);
             }
-            System.out.println("");
         }
         return result;
     }
