@@ -237,3 +237,6 @@ Sliding window maximum >> Sliding window
 ========================================================28th March 2026==================================================================================
 
 https://neetcode.io/problems/longest-repeating-substring-with-replacement/question?list=neetcode250
+
+========================================================03rd April 2026==================================================================================
+https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
