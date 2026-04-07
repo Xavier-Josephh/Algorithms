@@ -240,3 +240,8 @@ https://neetcode.io/problems/longest-repeating-substring-with-replacement/questi
 
 ========================================================03rd April 2026==================================================================================
 https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
+
+========================================================07th April 2026==================================================================================
+https://neetcode.io/problems/minimum-window-with-characters/question?list=neetcode250
+https://neetcode.io/problems/buy-and-sell-crypto/history?list=neetcode250&submissionIndex=1
+https://neetcode.io/problems/permutation-string/question?list=neetcode250
