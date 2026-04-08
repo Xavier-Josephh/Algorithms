@@ -245,3 +245,24 @@ https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of
 https://neetcode.io/problems/minimum-window-with-characters/question?list=neetcode250
 https://neetcode.io/problems/buy-and-sell-crypto/history?list=neetcode250&submissionIndex=1
 https://neetcode.io/problems/permutation-string/question?list=neetcode250
+========================================================08th April 2026==================================================================================
+https://neetcode.io/problems/minimum-size-subarray-sum/question?list=neetcode250
+class Solution {
+    public int minSubArrayLen(int target, int[] nums) {
+        
+        int low = 0;
+        int minimum_length = Integer.MAX_VALUE;
+        int sum = 0;
+        for (int high = 0; high < nums.length; high++) {
+            sum = sum + nums[high];
+            while (sum >= target) {
+                int length = high - low + 1;
+                minimum_length = Math.min(minimum_length, length);
+                sum = sum - nums[low];
+                low++;
+            }
+        }
+        return minimum_length == Integer.MAX_VALUE ? 0 : minimum_length;
+    }
+}
+https://neetcode.io/problems/find-k-closest-elements/question?list=neetcode250
